@@ -20,7 +20,6 @@ Aplicación móvil Flutter para la gestión de grupos, vehículos e inventarios 
 ---
 
 
----
 
 ## ⚙️ Instalación y ejecución
 
@@ -48,10 +47,16 @@ Aplicación móvil Flutter para la gestión de grupos, vehículos e inventarios 
 
 ## 🌐 Backend
 
-El servidor backend para notificaciones está disponible en Replit:
+El servidor backend para notificaciones está disponible en Replit:  
+🔗 [Api-Notificaciones-SMP en Replit](https://replit.com/@javierramirez20/Api-Notificaciones-SMP?v=1#index.js)
 
-[https://replit.com/@javierramirez20/Api-Notificaciones-SMP](https://replit.com/@javierramirez20/Api-Notificaciones-SMP?v=1#index.js)
-![Pantalla principal](https://raw.githubusercontent.com/Javimega999/Proyecto_smp/refs/heads/main/Captura%20de%20pantalla%202025-06-09%20211840.png?token=GHSAT0AAAAAADFC7MWKLPGLYFMDHEABRJ7Y2CHHCUA)
+<div align="center">
+
+<br>
+
+<img src="https://raw.githubusercontent.com/Javimega999/Proyecto_smp/refs/heads/main/Captura%20de%20pantalla%202025-06-09%20211840.png?token=GHSAT0AAAAAADFC7MWKLPGLYFMDHEABRJ7Y2CHHCUA" alt="Pantalla principal" width="1000"/>
+
+</div>
 
 ---
 
@@ -76,21 +81,31 @@ lib/
 
 ## 🧩 Tecnologías y paquetes usados
 
-- **Flutter** (SDK)
-- **Firebase** (Auth, Firestore, Messaging)
+- **Flutter** y **Dart**
+- **Firebase** (Auth, Firestore, Cloud Messaging)
 - **Provider** (gestión de estado)
 - **Easy Localization** (multilenguaje)
 - **Flutter Local Notifications**
 - **Geolocator** (ubicación)
 - **Image Picker** (fotos)
-- **Flutter Map** (mapas)
-- **Y más...**
+- **Flutter Map** + **OpenStreetMap** (mapas)
+- **Latlong2** (coordenadas)
+- **Shared Preferences** (almacenamiento local)
+- **http** (peticiones API)
+- **flutter_svg**
+- **intl**
+- **flutter_launcher_icons** y **flutter_native_splash**
+- **google_fonts**
+- **Servidor backend en Replit** (notificaciones)
+
+
 
 ---
 
-## 👤 Autores
+## 👤 Autor
 
-- [Tu Nombre o Equipo](https://github.com/tuusuario)
+- **Javier Ramírez Fernández**  
+  [GitHub: Javimega999](https://github.com/Javimega999)
 
 ---
 
