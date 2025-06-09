@@ -21,7 +21,12 @@ Aplicación móvil Flutter para la gestión de grupos, vehículos e inventarios 
 
 ## 📱 Capturas de pantalla
 
-> _Incluye aquí tus capturas de pantalla de la app para mostrar las principales pantallas y funcionalidades._
+Agrega aquí tus imágenes usando la siguiente sintaxis:
+
+```markdown
+![Pantalla principal](assets/screenshot1.png)
+![Chat grupal](assets/screenshot2.png)
+```
 
 ---
 
@@ -46,6 +51,14 @@ Aplicación móvil Flutter para la gestión de grupos, vehículos e inventarios 
    ```sh
    flutter run
    ```
+
+---
+
+## 🌐 Backend
+
+El servidor backend para notificaciones está disponible en Replit:
+
+[https://replit.com/@javierramirez20/Api-Notificaciones-SMP](https://replit.com/@javierramirez20/Api-Notificaciones-SMP?v=1#index.js)
 
 ---
 
