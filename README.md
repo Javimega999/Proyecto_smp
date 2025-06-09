@@ -1,2 +1,99 @@
-# Proyecto_smp
-Aplicación móvil para la gestión de grupos, vehículos e inventarios en tiempo real, con chat grupal, seguimiento de ubicación, notificaciones push, fichaje de usuarios y administración de recursos. Incluye autenticación, subida de fotos, mapas, localización y soporte multilenguaje.
+# 🚀 Proyecto SMP
+
+Aplicación móvil Flutter para la gestión de grupos, vehículos e inventarios en tiempo real. Incluye chat grupal, seguimiento de ubicación, notificaciones push, fichaje de usuarios y administración avanzada de recursos. Soporta autenticación, subida de fotos, mapas, localización y multilenguaje (español/inglés).
+
+---
+
+## 🛠️ Funcionalidades principales
+
+- **Gestión de usuarios**: Registro, login, roles (admin/usuario), subida de foto de perfil.
+- **Grupos**: Creación, edición, asignación de trabajadores y vehículos, chat grupal en tiempo real.
+- **Vehículos**: Alta, baja, inventario por vehículo, gestión de fotos y matrículas.
+- **Inventarios**: Añadir, editar y eliminar ítems, control visual y edición en línea.
+- **Chat grupal**: Mensajería instantánea, notificaciones push, diferenciación de roles.
+- **Mapa en tiempo real**: Visualización de trabajadores activos y rutas asignadas.
+- **Fichaje y tracking**: Entrada/salida de usuarios, tracking de ubicación solo cuando están fichados.
+- **Notificaciones**: Push (FCM) y locales, gestión de tokens y permisos.
+- **Soporte multilenguaje**: Español e inglés, fácil de ampliar.
+- **Administración avanzada**: Paneles exclusivos para admins, gestión de grupos y usuarios.
+
+---
+
+## 📱 Capturas de pantalla
+
+> _Incluye aquí tus capturas de pantalla de la app para mostrar las principales pantallas y funcionalidades._
+
+---
+
+## ⚙️ Instalación y ejecución
+
+1. **Clona el repositorio:**
+   ```sh
+   git clone https://github.com/tuusuario/proyecto_smp.git
+   cd proyecto_smp
+   ```
+
+2. **Instala las dependencias:**
+   ```sh
+   flutter pub get
+   ```
+
+3. **Configura Firebase:**
+   - Descarga tu archivo `google-services.json` (Android) y/o `GoogleService-Info.plist` (iOS) desde la consola de Firebase y colócalos en las carpetas correspondientes.
+   - Revisa y ajusta `firebase_options.dart` si es necesario.
+
+4. **Ejecuta la app:**
+   ```sh
+   flutter run
+   ```
+
+---
+
+## 📦 Estructura del proyecto
+
+```
+lib/
+ ├── main.dart
+ ├── firebase_options.dart
+ ├── provider/
+ ├── repository/
+ ├── screens/
+ ├── notis/
+ ├── menu/
+ ├── services/
+ ├── themes/
+ ├── translation/
+ └── utils/
+```
+
+---
+
+## 🧩 Tecnologías y paquetes usados
+
+- **Flutter** (SDK)
+- **Firebase** (Auth, Firestore, Messaging)
+- **Provider** (gestión de estado)
+- **Easy Localization** (multilenguaje)
+- **Flutter Local Notifications**
+- **Geolocator** (ubicación)
+- **Image Picker** (fotos)
+- **Flutter Map** (mapas)
+- **Y más...**
+
+---
+
+## 👤 Autores
+
+- [Tu Nombre o Equipo](https://github.com/tuusuario)
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
+
+---
+
+## ⭐ ¡Contribuciones y feedback bienvenidos!
+
+¿Ideas, bugs o mejoras? ¡Abre un issue o pull request!
