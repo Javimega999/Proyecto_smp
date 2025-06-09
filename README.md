@@ -19,14 +19,6 @@ Aplicación móvil Flutter para la gestión de grupos, vehículos e inventarios 
 
 ---
 
-## 📱 Capturas de pantalla
-
-Agrega aquí tus imágenes usando la siguiente sintaxis:
-
-```markdown
-![Pantalla principal](assets/screenshot1.png)
-![Chat grupal](assets/screenshot2.png)
-```
 
 ---
 
@@ -59,6 +51,7 @@ Agrega aquí tus imágenes usando la siguiente sintaxis:
 El servidor backend para notificaciones está disponible en Replit:
 
 [https://replit.com/@javierramirez20/Api-Notificaciones-SMP](https://replit.com/@javierramirez20/Api-Notificaciones-SMP?v=1#index.js)
+![Pantalla principal](https://raw.githubusercontent.com/Javimega999/Proyecto_smp/refs/heads/main/Captura%20de%20pantalla%202025-06-09%20211840.png?token=GHSAT0AAAAAADFC7MWKLPGLYFMDHEABRJ7Y2CHHCUA)
 
 ---
 
